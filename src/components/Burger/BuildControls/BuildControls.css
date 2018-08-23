@@ -1,24 +1,39 @@
 .BuildControls {
   width: 100%;
-  background-color: #CF8F2E;
+  background-color: #fff;
   display: flex;
   flex-flow: column;
   align-items: center;
-  box-shadow: 0 2px 1px #ccc;
+  box-shadow: 3px 3px 6px #ccc;
   margin: auto;
-  padding: 10px 0;
+  padding: 20px 0;
+}
+
+.PriceLabel {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.Price {
+  font-size: 3em;
+  line-height: 1;
+  padding: 0;
+  margin: 0 0 15px 0;
 }
 
 .OrderButton {
   background-color: #DAD735;
   outline: none;
   cursor: pointer;
-  border: 1px solid #966909;
+  border: 1px solid #DAD735;
   color: #966909;
   font-family: inherit;
   font-size: 1.2em;
   padding: 15px 30px;
-  box-shadow: 2px 2px 2px #966909;
+  margin-top: 15px;
+  box-shadow: 2px 2px 2px #ccc;
 }
 
 .OrderButton:hover, .OrderButton:active {
@@ -47,5 +62,11 @@
   }
   100% {
       transform: scale(1);
+  }
+}
+
+@media (min-width: 900px) {
+  .BuildControls {
+    width: 50%;
   }
 }

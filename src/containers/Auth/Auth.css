@@ -2,7 +2,8 @@
   margin: 20px auto;
   width: 80%;
   text-align: center;
-  box-shadow: 0 2px 3px #ccc;
+  background-color: #fff;
+  box-shadow: 3px 3px 6px #ccc;
   border: 1px solid #eee;
   padding: 10px;
   box-sizing: border-box;
