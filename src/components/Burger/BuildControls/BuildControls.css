@@ -65,7 +65,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1001px) {
   .BuildControls {
     width: 50%;
   }
