@@ -19,7 +19,7 @@
 
 .BuildControl button:disabled {
   background-color: #AC9980;
-  border: 1px solid #7E7365;
+  border: 1px solid #AC9980;
   color: #ccc;
   cursor: default;
 }
